@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="394.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.ifdgmbh.mad.SimpleSudoku.controller.SudokuController">
+   <children>
+      <AnchorPane fx:id="mypane" layoutX="20.0" prefHeight="354.0" prefWidth="251.0">
+         <children>
+            <Button fx:id="Feld1" layoutX="14.0" layoutY="59.0" mnemonicParsing="false" onMouseClicked="#Feld1Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld2" layoutX="51.0" layoutY="59.0" mnemonicParsing="false" onMouseClicked="#Feld2Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld3" layoutX="88.0" layoutY="59.0" mnemonicParsing="false" onMouseClicked="#Feld3Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld4" layoutX="125.0" layoutY="59.0" mnemonicParsing="false" onMouseClicked="#Feld4Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld5" layoutX="162.0" layoutY="59.0" mnemonicParsing="false" onMouseClicked="#Feld5Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld6" layoutX="199.0" layoutY="59.0" mnemonicParsing="false" onMouseClicked="#Feld6Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld7" layoutX="14.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#Feld7Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld8" layoutX="51.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#Feld8Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld9" layoutX="88.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#Feld9Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld10" layoutX="125.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#Feld10Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld11" layoutX="162.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#Feld11Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld12" layoutX="199.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#Feld12Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld13" layoutX="14.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#Feld13Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld14" layoutX="51.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#Feld14Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld15" layoutX="88.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#Feld15Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld16" layoutX="125.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#Feld16Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld17" layoutX="162.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#Feld17Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld18" layoutX="199.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#Feld18Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld19" layoutX="14.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#Feld19Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld20" layoutX="51.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#Feld20Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld21" layoutX="88.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#Feld21Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld22" layoutX="125.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#Feld22Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld23" layoutX="162.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#Feld23Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld24" layoutX="199.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#Feld24Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld25" layoutX="14.0" layoutY="219.0" mnemonicParsing="false" onMouseClicked="#Feld25Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld26" layoutX="51.0" layoutY="219.0" mnemonicParsing="false" onMouseClicked="#Feld26Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld27" layoutX="88.0" layoutY="219.0" mnemonicParsing="false" onMouseClicked="#Feld27Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld28" layoutX="125.0" layoutY="219.0" mnemonicParsing="false" onMouseClicked="#Feld28Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld29" layoutX="162.0" layoutY="219.0" mnemonicParsing="false" onMouseClicked="#Feld29Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld30" layoutX="199.0" layoutY="219.0" mnemonicParsing="false" onMouseClicked="#Feld30Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld31" layoutX="14.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#Feld31Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld32" layoutX="51.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#Feld32Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld33" layoutX="88.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#Feld33Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld34" layoutX="125.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#Feld34Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld35" layoutX="162.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#Feld35Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Feld36" layoutX="199.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#Feld36Click" prefHeight="40.0" prefWidth="37.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Line endX="219.0" layoutX="15.0" layoutY="179.0" />
+            <Line endY="240.0" layoutX="162.0" layoutY="59.0" />
+            <Line endY="240.0" layoutX="88.0" layoutY="59.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="Exit" layoutX="251.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#ExitClicked" text="Exit" />
+      <Button fx:id="newVal" layoutX="109.0" layoutY="354.0" mnemonicParsing="false" onMouseClicked="#newValClick" text="new values" />
+   </children>
+</AnchorPane>
