@@ -165,6 +165,8 @@ public class SudokuController {
 			myAlert.show();
 			return;
 		}
+		if (!running)
+			return;
 		SecureRandom rand = new SecureRandom();
 		boolean next = true;
 		while (next) {
