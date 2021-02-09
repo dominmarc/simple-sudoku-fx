@@ -203,7 +203,8 @@
          </children>
       </AnchorPane>
       <Button fx:id="Exit" layoutX="251.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#ExitClicked" text="Exit" />
-      <Button fx:id="newVal" layoutX="52.0" layoutY="354.0" mnemonicParsing="false" onMouseClicked="#newValClick" text="Start Game" />
-      <Button fx:id="giveHint" layoutX="177.0" layoutY="354.0" mnemonicParsing="false" onMouseClicked="#giveHintClicked" text="Hints left: 3" />
+      <Button fx:id="newVal" layoutX="108.0" layoutY="354.0" mnemonicParsing="false" onMouseClicked="#newValClick" text="Start Game" />
+      <Button fx:id="giveHint" layoutX="194.0" layoutY="354.0" mnemonicParsing="false" onMouseClicked="#giveHintClicked" text="Hints left: 3" />
+      <Button fx:id="solveGame" layoutX="20.0" layoutY="354.0" mnemonicParsing="false" onMouseClicked="#solveGameClick" text="Solve Game" />
    </children>
 </AnchorPane>
